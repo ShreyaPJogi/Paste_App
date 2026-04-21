@@ -2,7 +2,7 @@ import { Copy, PlusCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
-import { addToPastes, updatePastes } from "../redux/pasteSlice";
+import { addToPastes, updatePastes } from "../Redux/pasteSlice";
 import { useSearchParams } from "react-router-dom";
 
 const Home = () => {
